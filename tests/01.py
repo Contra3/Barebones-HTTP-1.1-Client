@@ -1,12 +1,12 @@
 test = {
-  'name': 'Check hw1.txt exists',
+  'name': 'Check if hw2.py exists',
   'points': 0,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> assert "hw2.txt" in os.listdir(".")
+          >>> assert "hw2.py" in os.listdir(".")
           """,
           'hidden': False,
           'locked': False
